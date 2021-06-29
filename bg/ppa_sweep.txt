@@ -1,0 +1,71 @@
+objective: pro
+interconnect: 300.0
+max_capacity: 1e+16
+absolute_min_energy: 30.0
+penalty_min_energy: 30.0
+outage_start: 3000
+outage_duration: 12
+penalty_multiplier: 0.0
+turbine_type: 1
+solar_cost_multiplier: 0.75
+battery_cost_multiplier: 0.5
+bound_type: 1
+ppa_type: 2
+shadow_type: 1
+
+ppa_type: 2
+DVopt: array([ 6.6666666666666674e+02,  2.2000000000000000e+01,
+        1.2000000000000000e+01,  1.3000000000000000e+01,
+        8.1587301587301590e+02,  7.0793650793650795e+02,
+        5.2359877559829915e-01,  4.9866550056980845e+00,
+        2.1093260110219767e+03, -8.0457741126419978e+02,
+        8.7301587301587301e+02,  1.0807648469039882e+03,
+        2.8734383363174020e+03,  2.0571223282359770e+03,
+        5.9525781177965382e+03,  3.6190476190476193e+02])
+opt_val: -6.398059000381083
+run_time: 5800.836453676224
+function_calls: 20946
+
+objective: pro
+interconnect: 300.0
+max_capacity: 1e+16
+absolute_min_energy: 30.0
+penalty_min_energy: 30.0
+outage_start: 3000
+outage_duration: 12
+penalty_multiplier: 0.0
+turbine_type: 1
+solar_cost_multiplier: 0.75
+battery_cost_multiplier: 0.5
+bound_type: 1
+ppa_type: 3
+shadow_type: 1
+
+ppa_type: 3
+DVopt: array([ 6.0317460317460313e+02,  2.2000000000000000e+01,
+        1.1000000000000000e+01,  1.2000000000000000e+01,
+        8.1587301587301590e+02,  8.1587301587301590e+02,
+       -2.7426602531339461e-01,  1.1967972013675403e+00,
+        1.5950454289629824e+03, -9.0136729935845256e+02,
+        7.6190476190476193e+02,  6.5219769518815974e+02,
+       -3.0258306510178500e+01,  4.1142446564719539e+03,
+        1.4518483214137900e+03,  3.6190476190476193e+02])
+opt_val: -3.9609444021381437
+run_time: 11138.32210803032
+function_calls: 34548
+
+objective: pro
+interconnect: 300.0
+max_capacity: 1e+16
+absolute_min_energy: 30.0
+penalty_min_energy: 30.0
+outage_start: 3000
+outage_duration: 12
+penalty_multiplier: 0.0
+turbine_type: 1
+solar_cost_multiplier: 0.75
+battery_cost_multiplier: 0.5
+bound_type: 1
+ppa_type: 3
+shadow_type: 1
+
