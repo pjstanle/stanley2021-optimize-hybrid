@@ -42,5 +42,5 @@ plt.gca().set_xticks((0.6,0.8,1.0,1.2,1.4))
 
 plt.subplots_adjust(bottom=0.2,top=0.99,right=0.99,left=0.08,wspace=0.4)
 
-plt.savefig("figures/sweep_resource.pdf",transparent=True)
+# plt.savefig("figures/sweep_resource.pdf",transparent=True)
 plt.show()

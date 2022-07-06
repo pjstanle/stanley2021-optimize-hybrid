@@ -259,15 +259,15 @@ if __name__=="__main__":
 
         start = time.time()
 
-        n = 1
-        t = np.linspace(7,17,n)
+        n = 25
+        t = np.linspace(8,16,n)
         d = np.linspace(0,365,n)
         L = np.zeros(n)
         start = time.time()
         for i in range(n):
             print(t[i])
             # L[i] = S.calculate_losses(13.0,d[i],rotor_direction=0.0,show_shadow=False)
-            L[i] = S.calculate_losses(t[i],10.0,rotor_direction=0.0,show_shadow=False)
+            L[i] = S.calculate_losses(t[i],10.0,rotor_direction=0.0,show_shadow=True)
             # print("time to run: ", time.time()-start)
             # print("loss: ", L)
         

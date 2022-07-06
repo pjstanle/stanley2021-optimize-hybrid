@@ -10,7 +10,8 @@ from math import radians
 if __name__=="__main__":
 
 
-    powercurve_filename = '/Users/astanley/Projects/stanley2021-spatial-optimization/spatial-optimization/turbine_data/low_2_43r_116d_88h.txt'
+    filename = "low_2_43r_116d_88h"
+    powercurve_filename = '/Users/astanley/Projects/finished_projects/stanley2021-optimize-hybrid/revision/turbine_data/%s.txt'%filename
     rotor_diameter = 116.0
     hub_height = 88.0
         

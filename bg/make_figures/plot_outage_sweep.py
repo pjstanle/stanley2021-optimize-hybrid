@@ -12,7 +12,8 @@ coe = np.array([55.80524101, 55.98073369, 56.03972098, 55.98078909, 58.76974033,
 
 outage = np.array([0,3,6,9,12,15,18,24,36,48])
 
-plt.figure(figsize=(6,2.2))
+# plt.figure(figsize=(6,2.2))
+plt.figure(figsize=(6,1.8))
 
 end = 8
 plt.subplot(131)
@@ -46,5 +47,6 @@ plt.gca().set_xticks((0,6,12,18,24))
 
 plt.subplots_adjust(bottom=0.2,top=0.99,right=0.99,left=0.08,wspace=0.4)
 
-plt.savefig("figures/sweep_outage.pdf",transparent=True)
+# plt.savefig("figures/sweep_outage.pdf",transparent=True)
+# plt.savefig("figures/sweep_outage_ab.pdf",transparent=True)
 plt.show()

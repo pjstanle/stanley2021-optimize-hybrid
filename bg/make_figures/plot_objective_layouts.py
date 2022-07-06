@@ -2,7 +2,7 @@
 import numpy as np
 from shapely.geometry import Polygon, Point, LineString, MultiPolygon
 from model_hybrid import SimpleHybrid
-import floris.tools as wfct
+# import floris.tools as wfct
 import matplotlib.pyplot as plt
 import time
 from shapely.ops import unary_union
@@ -725,7 +725,7 @@ if __name__=="__main__":
     L =1500
     my = np.min(by) + (np.max(by)-np.min(by))/2.0
     ax1.text(min(bx)-L,my,"no minimum\npower constraint",fontsize=8,horizontalalignment="center",verticalalignment="center")
-    ax2.text(min(bx)-L,my,"30 MW minimum\npower constraint",fontsize=8,horizontalalignment="center",verticalalignment="center")
+    ax2.text(min(bx)-L,my,"30-MW minimum\npower constraint",fontsize=8,horizontalalignment="center",verticalalignment="center")
 
     mx = np.min(bx) + (np.max(bx)-np.min(bx))/2.0
 
@@ -735,7 +735,7 @@ if __name__=="__main__":
     
     plt.subplots_adjust(left=0.18,right=0.99,top=0.97,bottom=0.01,wspace=0.3,hspace=0.0)
 
-    plt.savefig("figures/objective_layouts.pdf",transparent=True)
+    # plt.savefig("figures/objective_layouts.pdf",transparent=True)
     plt.show()
 
 

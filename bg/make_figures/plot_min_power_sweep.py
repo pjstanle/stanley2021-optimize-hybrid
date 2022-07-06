@@ -11,7 +11,8 @@ coe = np.array([34.93517855, 45.50729925, 52.96760687, 58.76974033, 66.24130686,
 
 min_power = np.array([0,10,20,30,40,50])
 
-plt.figure(figsize=(6,2.2))
+# plt.figure(figsize=(6,2.2))
+plt.figure(figsize=(6,1.8))
 
 plt.subplot(131)
 plt.plot(min_power,coe,"-o",color="C2")
@@ -45,5 +46,5 @@ plt.gca().set_xticks((0,20,40))
 
 plt.subplots_adjust(bottom=0.2,top=0.99,right=0.99,left=0.08,wspace=0.4)
 
-plt.savefig("figures/sweep_min_power.pdf",transparent=True)
+plt.savefig("figures/sweep_min_power_ab.pdf",transparent=True)
 plt.show()
